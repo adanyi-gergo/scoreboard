@@ -1,0 +1,88 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0 auto;
+    background-color: #1B244A;
+    width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+h3 {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 30px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #F94F6D;
+    background-color: #080001;
+    width: 150px;
+    height: 120px;
+    font-family: CursedTimer;
+    font-size: 90px;
+    border-radius: 5px;
+}
+
+.score p {
+    line-height: 105px;
+    height: 90px;
+}
+
+.addScore {
+    display: flex;
+    color: #9AABD8;
+    justify-content: space-around;
+}
+
+.increments {
+    border: 1px solid #9AABD8;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: CursedTimer;
+    background-color: #1B244A;
+    color: #9AABD8;
+    margin: 20px 0px;
+}
+
+#newGame {
+
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+}
+
+#ng-btn {
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #1B244A;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #07c8f9;
+}
+
+#ng-btn:hover {
+    background-color: #02485A;
+    box-shadow: none;
+}
+
+#timer {
+    color: white;
+    font-size: 60px;
+}
+
+#timer-div {
+    margin-top: 50px;
+}
